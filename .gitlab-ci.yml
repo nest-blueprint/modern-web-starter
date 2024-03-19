@@ -1,0 +1,9 @@
+include:
+  - project: 'swarmtech/library/gitlab-ci-template'
+    file: '/stage/default.yml'
+    ref: '1.1.14'
+
+  - project: 'swarmtech/library/gitlab-ci-template'
+    file: '/10-prepare/branch-name-validating.yml'
+    ref: '1.1.14'
+

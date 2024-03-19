@@ -1,0 +1,38 @@
+version: "3.7"
+services:
+  database:
+    image: mysql:8.0
+    restart: unless-stopped
+    ports:
+      - 3306:3306
+    env_file: .env
+    environment:
+      MYSQL_USER: ""
+    volumes:
+      - database_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", 'mysqladmin', 'ping', '-h', 'localhost', '-u', 'root', '-p$$MYSQL_ROOT_PASSWORD' ]
+
+  api:
+    build:
+      target: dev
+      context: .
+      dockerfile: .docker/Dockerfile
+    env_file: .env
+    ports:
+      - "${API_PORT-3000}:3000"
+    depends_on:
+      - database
+    command: nodemon
+    tty: true
+    volumes:
+      - api_src:/usr/src/app
+
+volumes:
+  database_data:
+  api_src:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: ${PWD}

@@ -1,0 +1,7 @@
+{
+  "watch": ["./module"],
+  "ignore": ["./dist"],
+  "ext": "ts,mjs,js,json,graphql",
+  "exec": " ts-node -C ttypescript ./public/main.ts",
+  "legacyWatch": true
+}

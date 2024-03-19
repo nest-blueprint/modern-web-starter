@@ -1,0 +1,11 @@
+**/node_modules
+**/.git
+**/.idea
+**/.vscode
+**/.gitignore
+**/dist
+**/Makefile
+**/.docker
+**/.prettierrc
+**/*.env*
+**/README.md
