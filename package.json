@@ -2,9 +2,9 @@
   "name": "thementor-api",
   "version": "0.0.1",
   "description": "The mentor API",
-  "author": "Swarmtech",
+  "author": "Gary Gitton",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT
   "scripts": {
     "start": "node ./dist/public/main.js",
     "build": "rimraf ./dist && ttsc",

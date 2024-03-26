@@ -1,73 +1,66 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Nest Blueprint: Modern Web Starter
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Welcome to **Nest Blueprint: Modern Web Starter** - an exemplary project template designed to kickstart your journey
+into modern web application development with Nest.js. This project embodies the pinnacle of software craftsmanship,
+integrating advanced patterns and practices such as Sequelize, Auth0 authentication, CQRS pattern, Clean Architecture,
+Behavior-Driven Development (BDD) with Cucumber, unit testing, decorators, Domain-Driven Design (DDD), and more.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Our aim is to provide a comprehensive, ready-to-use Nest.js project skeleton that not only accelerates the development
+process for new projects but also serves as a learning framework for best practices in the industry.
 
-## Description
+## Features
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+* **Sequelize**: Robust SQL dialect ORM for straightforward database management.
+* **Auth0 Integration**: Secure, easy-to-implement authentication, and authorization.
+* **CQRS and Clean Architecture**: Separation of concerns for improved maintainability and scalability.
+* **BDD with Cucumber**: Write specifications that double as documentation and automated tests.
+* **Unit Testing and Doubles**: Robust testing strategies ensuring code quality and reliability.
+* **Middleware for Logging**: Customizable request/response logging for better observability.
+* **Decorators and DDD Principles**: Elegant code design promoting domain-centric logic.
+* **QueryBus and CommandBus**: Decoupled communication channels for handling business operations.
 
-## Installation
+## Getting Started
+
+To get a local copy up and running follow these simple steps:
 
 ```bash
-$ npm install
+# Clone the repository
+git clone https://github.com/nest-blueprint/modern-web-starter.git
+
+# Navigate into the project directory
+cd modern-web-starter
+
+# Install dependencies
+npm install
+
+# Create a .env file (refer to .env.example for required keys)
+
+# Start the development server
+npm run start:dev
 ```
 
-## Running the app
+## Contributing
 
-```bash
-# development
-$ npm run start
+Your contributions are what make the **open source community** such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-# watch mode
-$ npm run start:dev
+If you have an idea that would make this better, please fork the repo, create a pull request, and share your thoughts.
+Don't forget to give the project a star! Thanks again!
 
-# production mode
-$ npm run start:prod
-```
+## About the Project Creator
 
-## Test
+Hello, I'm Gary Gitton, a passionate software developer/engineer with a love for building scalable, maintainable, and
+user-focused applications. Through **Nest Blueprint: Modern Web Starter**, I aim to share my experience and knowledge
+with
+the developer community, fostering an environment of learning and collaborative improvement.
 
-```bash
-# unit tests
-$ npm run test
+Feel free to connect with me:
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+GitHub: https://www.github.com/garygitton
+LinkedIn: https://www.linkedin.com/in/garygitton
+Twitter: https://www.twitter.com/garygitton
+Website: https://www.garygitton.fr
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+Distributed under the MIT License. See LICENSE for more information.

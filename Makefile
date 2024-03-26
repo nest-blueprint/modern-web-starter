@@ -9,6 +9,7 @@ EXEC_TS_NODE = docker compose exec -T api npx ts-node
 
 .env: .env.local
 	[ -f .env ] || cp .env.local .env
+
 ###
 # application
 ###
