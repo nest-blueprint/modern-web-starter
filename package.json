@@ -1,10 +1,10 @@
 {
-  "name": "thementor-api",
+  "name": "@nest-blueprint/modern-web-starter",
   "version": "0.0.1",
   "description": "The mentor API",
   "author": "Gary Gitton",
   "private": true,
-  "license": "MIT
+  "license": "MIT",
   "scripts": {
     "start": "node ./dist/public/main.js",
     "build": "rimraf ./dist && ttsc",
